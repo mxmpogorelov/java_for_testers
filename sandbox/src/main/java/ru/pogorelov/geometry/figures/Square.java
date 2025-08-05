@@ -8,4 +8,8 @@ public class Square {
     public static double SquareArea(double a) {
         return a * a;
     }
+
+    public static double perimeter(double a) {
+        return 4 * a;
+    }
 }

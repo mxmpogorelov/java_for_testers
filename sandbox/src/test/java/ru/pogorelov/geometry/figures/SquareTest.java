@@ -10,4 +10,10 @@ public class SquareTest {
         double result = Square.SquareArea(5.0);
         Assertions.assertEquals(25.0, result);
     }
+
+    @Test
+    void canCalculatePerimetr(){
+        Assertions.assertEquals(20.0, Square.perimeter(5.0));
+    }
+
 }
