@@ -5,7 +5,7 @@ public class Square {
         System.out.println("Площадь квадрата со стороной " + a + " = " + SquareArea(a));
     }
 
-    private static double SquareArea(double a) {
+    public static double SquareArea(double a) {
         return a * a;
     }
 }
