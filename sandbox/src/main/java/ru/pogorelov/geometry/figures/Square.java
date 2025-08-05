@@ -2,10 +2,10 @@ package ru.pogorelov.geometry.figures;
 
 public class Square {
     public static void printSquareArea(double a) {
-        System.out.println("Площадь квадрата со стороной " + a + " = " + SquareArea(a));
+        System.out.println("Площадь квадрата со стороной " + a + " = " + area(a));
     }
 
-    public static double SquareArea(double a) {
+    public static double area(double a) {
         return a * a;
     }
 

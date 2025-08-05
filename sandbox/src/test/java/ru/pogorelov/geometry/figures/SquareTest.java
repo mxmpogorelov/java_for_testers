@@ -7,7 +7,7 @@ public class SquareTest {
 
     @Test
     void canCalculateArea() {
-        double result = Square.SquareArea(5.0);
+        double result = Square.area(5.0);
         Assertions.assertEquals(25.0, result);
     }
 
