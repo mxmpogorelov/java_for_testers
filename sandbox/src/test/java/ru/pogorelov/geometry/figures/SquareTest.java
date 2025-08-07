@@ -13,7 +13,7 @@ public class SquareTest {
     }
 
     @Test
-    void canCalculatePerimetr(){
+    void canCalculatePerimetr() {
         Assertions.assertEquals(20.0, new Square(5.0).perimeter());
     }
 
